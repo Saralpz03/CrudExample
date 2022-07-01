@@ -1,0 +1,116 @@
+img{
+	width: 200px;	
+}
+
+/*.contenedor{
+	width: 550px;
+	height: 550px;
+	float: left;
+	margin: 15px 15px;
+	text-align: center;
+	font-size: 20px;
+	font-family: calibri;
+	
+}*/
+
+.portada{
+	height: 260px;
+	background-color: red;
+}
+
+.nombre{
+	height: 40px;
+	background-color: yellow;
+}
+.creador{
+	height: 40px;
+	background-color: black;	
+}
+.anio{
+	height: 30px;
+	background-color: pink;
+}
+
+
+/*  INSERTAR  */
+
+.formulario_insertar{
+	margin-left: 50px;
+}
+
+p{
+	font-size: 25px;
+	text-align: center;
+}
+
+table{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+}
+
+
+
+/*  BORRAR   */
+.botones{
+	width: 80px;
+	height: 30px;	
+	background-color: #CED6CB;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+}
+.botones a{
+	text-decoration: none;
+
+}
+
+/*   MOSTRAR UNO     */
+
+.contenedor2 img{
+	width: 300px;
+}
+
+.contenedor2{
+	width: 450px;
+	height: 570px;
+	margin: auto;
+	background-color: pink;
+	text-align: center;
+	font-size: 30px;
+	font-family: calibri;
+	
+}
+
+.portada2{
+	height: 400px;
+	background-color: pink;
+}
+
+.nombre2{
+	height: 40px;
+	background-color: pink;
+}
+.creador2{
+	height: 40px;
+	background-color: pink;	
+}
+
+.comentarios2{
+	height: 40px;
+	background-color: pink;	
+}
+.volver{
+	float: left;
+	font-family: calibri;
+	font-size: 20px;
+}
+
+
+/*   BUSCAR   */
+
+.centrarboton{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}

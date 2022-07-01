@@ -1,0 +1,357 @@
+﻿/* FORMULARIO */
+* {
+	font-family: calibri;
+}
+a{
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+}
+form{
+	width: 350px;
+	margin:0px auto;
+}
+fieldset{
+	border-radius: 5px;
+}
+label{
+	display: block;
+	margin-top: 10px;
+	color:#444;
+	font-family: calibri;
+	font-weight: bolder
+}
+.field{
+	border-radius:2px;
+	border:2px solid #ccc;
+	padding-left: 5px;
+}
+
+#boton{
+	display: block;
+	margin-top: 15px;
+	margin-left: 110px;
+	border-radius: 5px;
+	border:1px solid #444;
+}
+.signo:before{
+	content:"► ";
+	color:red;
+	font-family: calibri;
+}
+.centrarInfo{
+	font-family: calibri;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+/* Mostrar Uno  */
+
+.disco{
+		width:500px;
+		height:700px;
+		background-color:;
+		margin:0 auto;
+		
+	}
+	
+	.portada{
+		width:500px;
+		height:500px;
+		background-color:;
+		float:left;
+		}
+		
+	.foto{
+		width:500px;
+		height:500px;		
+		}
+			
+	.informacionDisco{
+		width:500px;
+		height:200px;		
+		background-color:;
+		float:left;}
+
+	.titulosDiscosuno{
+		width:500px;
+		height:100px;		
+		background-color:;
+		float:left;
+		text-align:center;
+		font-size:50px;
+		border:1px solid black;
+		}
+		
+		.autorDiscosizq{		
+		width:248px;
+		height:100px;		
+		background-color:;		
+		text-align:center;
+		font-size:25px;		
+		float:left;
+		border:1px solid black;}
+		
+		.anioDiscosder{
+		width:248px;
+		height:100px;		
+		background-color:;
+		text-align:center;
+		font-size:25px;	
+		float:left;
+		border:1px solid black;}
+/*
+*/
+
+/* Fin de Mostrar uno */
+/* MOSTRAR*/
+
+#contenedorFull{
+	width: 100%;
+	min-height: 100px;
+	/*background-color: orange;*/
+}
+#contenedorCentrado{
+	width: 1100px;
+	min-height: 100px;
+	margin:0px auto;
+}	#tituloDisco{
+		width: 1100px;
+		min-height: 80px;
+	/*background-color: green;*/
+		float: left;
+	}
+		#tituloDisco span{
+			font-family: calibri;
+			font-size: 40px;
+			border-bottom: 2px solid red;
+			margin-left: 30px;
+		}
+	#discos{
+		width: 1100px;
+		min-height: 500px;
+		/*background-color: lightgreen;*/
+		float: left;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		
+	}
+		.infoDiscos{
+			width: 250px;
+			height:600px;
+			float: left;
+			/*background-color: yellow;*/
+		}
+			.imagenDiscos{
+				width: 250px;
+				min-height: 250px;
+				float: left;
+				/*background-color: purple;	*/
+			}
+				.imagenDiscos img{
+					width: 100%;
+					height: auto;
+				}
+			.titulosDiscos{
+				width: 250px;
+				min-height: 60px;
+				float: left;
+				/*background-color: violet;*/
+				text-align: center;
+				font-family: calibri;
+				font-size:20px;	
+				font-weight: bolder;
+				line-height: 50px;
+				border-bottom: solid 1px #ddd;
+			}
+			.autorDiscos{
+				width: 124px;
+				min-height: 60px;
+				float: left;
+				/*background-color: red;*/
+				border-right: solid 1px #ddd;
+				font-family: calibri;
+				font-size:18px;	
+				text-align: center;
+				line-height: 50px;
+			}
+			.anioDiscos{
+				width: 125px;
+				min-height: 60px;
+				float: left;
+				/*background-color: blue;*/
+				font-family: calibri;
+				font-size:18px;	
+				text-align: center;
+				line-height: 50px;
+			}
+
+/* BOTONES BORRAR Y ACTUALIZAR */ 
+
+.botones,#botonMostrar{
+	width: 120px;
+	min-height: 30px;
+	background-color: #DAD8D8;
+	float: left;
+	text-align: center;
+	left: 50%;
+	margin-left: 65px;
+	margin-top: 25px;
+	border-radius: 3px;
+	transition: 0.3s all;
+	cursor: pointer;
+}
+	.botones span,#botonMostrar span{
+		font-family: calibri;
+		font-weight: bolder;
+		font-size: 17px;
+		line-height: 30px;
+		color:black;
+	}
+		.botones:hover,#botonMostrar:hover{
+			transition: 0.3s all;
+			background-color: #E7E5E5;
+		}
+#botonMostrar{
+	margin-left: 600px;
+}
+
+
+
+/* POP UP*/
+h3{
+	font-family: caibri;
+}
+#popUpEliminar{
+	text-align: center;
+	width: 300px;
+	height: 150px;
+	border: 1px white solid;
+	top: 30%;
+	left: 50%;
+	margin-left: -150px;
+	margin-top: -50px;
+	position: absolute;
+	background-color: white;
+	font-size: 20px;
+	border-radius: 5px;
+}
+	#popUpEliminar:hover{
+		box-shadow: 0px 0px 30px -15px rgba(0,0,0,0.75);
+	}
+			
+	#popUpEliminar div{
+		width: 50%;
+		float: left;
+		position: relative;
+		text-align: center;
+		padding-top: 15px;
+	}
+			
+	.btEnvio{
+		font-size: 20px;
+		width: 90px;
+		border-radius: 30px;
+		border:0px;	
+		
+	}
+		.btEnvio a{
+			background-color: white;
+		}
+
+/* FORMULARIO ACTUALIZAR.PHP*/
+
+#formularioReservar{
+		width: 600px;
+		min-height: 400px;
+		/*background-color: brown;*/
+		float: left;
+	}
+		#reservarFormulario{
+			border: 2px dotted #ccc;
+			background: -webkit-linear-gradient(rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
+			background: -o-linear-gradient(rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
+			background: linear-gradient(rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
+			padding:10px;
+			width:400px;
+			min-height:20px;
+			margin:20px 80px;
+			text-align:center center;
+			float:left;
+			border-radius:5px;
+			box-sizing: border-box;
+		}
+			/*Editar los input y label formulario*/
+			fieldset {
+				border: 1px dotted #444;
+				border-radius: 5px;
+				margin-top: 0px;
+			}
+			.textoLabel{
+				display: block;
+				height: 25px;
+				/*background-color: red;*/
+				width: 20%;
+				float: left;
+				text-align: right;
+				padding-right: 30px;
+				padding-top: 3px;
+				box-sizing: border-box;
+				margin-top: 3px;
+				text-transform: uppercase;
+			}
+
+			.editarInput {
+				display: block;
+				padding-left: 5px;
+				border: 0px solid #ccc;
+				border-bottom: 2px solid #ccc;
+				border-radius: 0px;
+				font-size: 18px;
+				width: 70%;
+				float: left;
+				margin-top: 5px;
+			}
+			
+			.botonF{
+				display: inline-block;
+				margin-top: 20px;
+				left: 50%;
+				margin-left: 100px;
+			}
+
+ 				input.botonF {
+					border: 0px solid #444;
+					border-bottom: 1px solid #444;
+					background-color: #eee;
+					transition: 0.3s all;
+					cursor: pointer;
+					text-transform: uppercase;
+					font-size: 14px;
+					font-weight: bold;
+					padding: 3px;
+					color: #444;
+				}
+				input:hover.botonF {
+					background-color: #ccc;
+					transition: 0.3s all;
+					color: black;
+				}
+				
+				
+	
+/* USUARIOS PHP*/			
+				
+h1 .usuario{
+	background-color: #45CC15;
+	width: 350px;
+	text-align: center;
+}				
+				
+				
+				
+				
